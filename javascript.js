@@ -29,7 +29,11 @@ function playerMove(choice) {
 }
 
 function computerMove() {
-  const images = ["./rock.png", "./paper.png", "./scissors.png"];
+  const images = [
+    "./images/rock.png",
+    "./images/paper.png",
+    "./images/scissors.png",
+  ];
   const choices = ["rock", "paper", "scissors"];
   const random = Math.floor(Math.random() * 3);
   const showMove = document.querySelector(".compmove");
