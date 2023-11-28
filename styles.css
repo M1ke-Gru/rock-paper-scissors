@@ -56,7 +56,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-color:;
+  border-color: #c6d0f5;
 }
 
 .choose button:active {
