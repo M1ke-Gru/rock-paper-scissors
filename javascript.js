@@ -14,7 +14,6 @@ function game() {
           scoreandround[0] > scoreandround[1] ? "You win" : "Computer wins";
         roundNumber.textContent = winner;
 
-        // Remove the click event listener for all buttons
         buttons.forEach((button) =>
           button.removeEventListener("click", arguments.callee),
         );
