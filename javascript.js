@@ -49,7 +49,6 @@ function updateGame(playerChoice, computerChoice, score) {
   console.log("Player Text Element:", playerText);
   console.log("Computer Text Element:", computerText);
 
-  // Check if the elements are found
   if (!playerText || !computerText) {
     console.error("Player or computer text element not found");
     return;
@@ -72,12 +71,6 @@ function updateGame(playerChoice, computerChoice, score) {
   }
 }
 
-// Add your game-over logic inside this function
-function stopTheGame() {
-  // Game-over logic
-}
-
-// Ensure the game is started when the document is fully loaded
 document.addEventListener("DOMContentLoaded", function () {
   game();
 });
